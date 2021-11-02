@@ -18,7 +18,7 @@ declare module 'angular' {
                 /**
                  * Contains the label for the step in the breadcrumb. The state name is used if not defined.
                  **/
-                label?: string | undefined;
+                label?: string | Function | undefined;
                 /**
                  * Override the parent state (only for the breadcrumb)
                  **/
